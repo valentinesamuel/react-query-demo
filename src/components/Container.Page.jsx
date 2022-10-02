@@ -16,6 +16,12 @@ const Container = () => {
                             <Link to="/">Home</Link>
                         </li>
                         <li>
+                            <Link to="rqinfinite">Infinite Queries</Link>
+                        </li>
+                        <li>
+                            <Link to="rqpaginated">Paginated Queries</Link>
+                        </li>
+                        <li>
                             <Link to="rqparallel">Parallel Queries</Link>
                         </li>
                         <li>

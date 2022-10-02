@@ -7,14 +7,18 @@ import RQSuperHero from './components/RQSuperHero.page';
 import ParallelQueries from './components/ParallelQueries.page';
 import DynamicParallel from './components/DynamicParallel.page';
 import DependentQueries from './components/DependentQueries.page';
+import PaginatedQueryies from './components/PaginatedQueryies.page';
+import InfiniteQueryies from './components/InfiniteQueries.page';
 
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<Container/>}>
-        <Route index  element={<HomePage/>} />
-        <Route path='rqdependent' element={<DependentQueries email="test@test.com"/>} />
-        <Route path='rqsuperheroes' element={<RQSuperHeros/>} />
+      <Route path='/' element={<Container />}>
+        <Route index element={<HomePage />} />
+        <Route path='rqinfinite' element={<InfiniteQueryies />} />
+        <Route path='rqpaginated' element={<PaginatedQueryies />} />
+        <Route path='rqdependent' element={<DependentQueries email="test@test.com" />} />
+        <Route path='rqsuperheroes' element={<RQSuperHeros />} />
         <Route path='dynamicparallel' element={<DynamicParallel heroIds={[1, 3]} />} />
         <Route path='/:heroid' element={<RQSuperHero />} />
         <Route path='/rqparallel' element={<ParallelQueries />} />
