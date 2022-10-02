@@ -16,7 +16,7 @@ const Container = () => {
                             <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="superheroes">Traditional Superheroes</Link>
+                            <Link to="rqsuperhero">Traditional Superheroes</Link>
                         </li>
                         <li>
                             <Link to="rqsuperheroes">RQ Superheroes</Link>

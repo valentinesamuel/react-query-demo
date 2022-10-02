@@ -1,5 +1,9 @@
 {"superheroes":[
-    ,
+    {
+        "id": 1,
+        "name": "Flash",
+        "alterEgo": "Barry Allen"
+    },
     {
         "id": 2,
         "name": "Superman",

@@ -1,9 +1,9 @@
-import { useSuperHeroData } from "../hooks/useSuperHeroData"
-
-
+import { Link } from "react-router-dom"
+import { useSuperHeroData } from "../hooks/useSuperHeroesData"
 
 
 const RQSuperHeros = () => {
+
     // const onSuccess = (data) => {
     //     console.log('Performed side effect after data fetching', data);
     // }
@@ -31,9 +31,13 @@ const RQSuperHeros = () => {
             {/* {data?.data.map(hero => {
                 return <h2 key={hero.id}>{hero.name}</h2>
             })} */}
-            {data.map(hero => {
-                return <h2>{hero}</h2>
+            {data?.data.map(hero => {
+                return <h2 key={hero.id}>
+                    <Link to={`/${hero.id}`}>
+                        {hero.name}</Link>
+                </h2>
             })}
+
 
         </>
     )
