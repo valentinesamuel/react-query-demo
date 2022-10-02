@@ -9,12 +9,14 @@ import DynamicParallel from './components/DynamicParallel.page';
 import DependentQueries from './components/DependentQueries.page';
 import PaginatedQueryies from './components/PaginatedQueryies.page';
 import InfiniteQueryies from './components/InfiniteQueries.page';
+import AddSuperHeroes from './components/AddSuperHeroes.page';
 
 function App() {
   return (
     <Routes>
       <Route path='/' element={<Container />}>
         <Route index element={<HomePage />} />
+        <Route path='addsuperheroes' element={<AddSuperHeroes />} />
         <Route path='rqinfinite' element={<InfiniteQueryies />} />
         <Route path='rqpaginated' element={<PaginatedQueryies />} />
         <Route path='rqdependent' element={<DependentQueries email="test@test.com" />} />

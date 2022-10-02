@@ -1,79 +1,88 @@
 {
-    "superheroes": [
-        {
-            "id": 1,
-            "name": "Flash",
-            "alterEgo": "Barry Allen"
-        },
-        {
-            "id": 2,
-            "name": "Superman",
-            "alterEgo": "Clark Kent"
-        },
-        {
-            "id": 3,
-            "name": "Wonder Woman",
-            "alterEgo": "Princess Diana"
-        }
-    ],
-    "friends": [
-        {
-            "id": 1,
-            "name": "Chandler Bing"
-        },
-        {
-            "id": 2,
-            "name": "Joey Tribbani"
-        },
-        {
-            "id": 3,
-            "name": "Rachel Green"
-        }
-    ],
-    "users": [
-        {
-            "id": "test@test.com",
-            "channelId": "valentine"
-        }
-    ],
-    "channels": [
-        {
-            "id" : "valentine",
-            "courses": ["react", "angular", "nextjs"]
-        }
-    ],
-    "colors": [
-        {
-            "id": 1,
-            "label": "red"
-        },
-        {
-            "id": 2,
-            "label": "blue"
-        },
-        {
-            "id": 3,
-            "label": "green"
-        },
-        {
-            "id": 4,
-            "label": "yellow"
-        },
-        {
-            "id": 5,
-            "label": "black"
-        },
-        {
-            "id": 6,
-            "label": "white"
-        },
-        {
-            "id": 7,
-            "label": "orange"
-        },
-        {
-            "id": 8,
-            "label": "purple"
-        }
-    ]
+  "superheroes": [
+    {
+      "id": 1,
+      "name": "Flash",
+      "alterEgo": "Barry Allen"
+    },
+    {
+      "id": 2,
+      "name": "Superman",
+      "alterEgo": "Clark Kent"
+    },
+    {
+      "id": 3,
+      "name": "Wonder Woman",
+      "alterEgo": "Princess Diana"
+    },
+    {
+      "name": "Ryan Reynolds",
+      "alterEgo": "Deadpool",
+      "id": 4
+    }
+  ],
+  "friends": [
+    {
+      "id": 1,
+      "name": "Chandler Bing"
+    },
+    {
+      "id": 2,
+      "name": "Joey Tribbani"
+    },
+    {
+      "id": 3,
+      "name": "Rachel Green"
+    }
+  ],
+  "users": [
+    {
+      "id": "test@test.com",
+      "channelId": "valentine"
+    }
+  ],
+  "channels": [
+    {
+      "id": "valentine",
+      "courses": [
+        "react",
+        "angular",
+        "nextjs"
+      ]
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "label": "red"
+    },
+    {
+      "id": 2,
+      "label": "blue"
+    },
+    {
+      "id": 3,
+      "label": "green"
+    },
+    {
+      "id": 4,
+      "label": "yellow"
+    },
+    {
+      "id": 5,
+      "label": "black"
+    },
+    {
+      "id": 6,
+      "label": "white"
+    },
+    {
+      "id": 7,
+      "label": "orange"
+    },
+    {
+      "id": 8,
+      "label": "purple"
+    }
+  ]
 }

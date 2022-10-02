@@ -16,6 +16,9 @@ const Container = () => {
                             <Link to="/">Home</Link>
                         </li>
                         <li>
+                            <Link to="addsuperheroes">Add Superheroes</Link>
+                        </li>
+                        <li>
                             <Link to="rqinfinite">Infinite Queries</Link>
                         </li>
                         <li>
@@ -38,7 +41,7 @@ const Container = () => {
             </div>
 
             <Outlet />
-            <ReactQueryDevtools initialIsOpen={false} position='bottom-right'/>
+            <ReactQueryDevtools initialIsOpen={false} position='bottom-right' />
         </QueryClientProvider>
     )
 }
