@@ -1,17 +1,45 @@
-{"superheroes":[
-    {
-        "id": 1,
-        "name": "Flash",
-        "alterEgo": "Barry Allen"
-    },
-    {
-        "id": 2,
-        "name": "Superman",
-        "alterEgo": "Clark Kent"
-    },
-    {
-        "id": 3,
-        "name": "Wonder Woman",
-        "alterEgo": "Princess Diana"
-    }
-]}
+{
+    "superheroes": [
+        {
+            "id": 1,
+            "name": "Flash",
+            "alterEgo": "Barry Allen"
+        },
+        {
+            "id": 2,
+            "name": "Superman",
+            "alterEgo": "Clark Kent"
+        },
+        {
+            "id": 3,
+            "name": "Wonder Woman",
+            "alterEgo": "Princess Diana"
+        }
+    ],
+    "friends": [
+        {
+            "id": 1,
+            "name": "Chandler Bing"
+        },
+        {
+            "id": 2,
+            "name": "Joey Tribbani"
+        },
+        {
+            "id": 3,
+            "name": "Rachel Green"
+        }
+    ],
+    "users": [
+        {
+            "id": "test@test.com",
+            "channelId": "valentine"
+        }
+    ],
+    "channels": [
+        {
+            "id" : "valentine",
+            "courses": ["react", "angular", "nextjs"]
+        }
+    ]
+}

@@ -16,10 +16,16 @@ const Container = () => {
                             <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="rqsuperhero">Traditional Superheroes</Link>
+                            <Link to="rqparallel">Parallel Queries</Link>
+                        </li>
+                        <li>
+                            <Link to="rqdependent">Dependent Queries</Link>
                         </li>
                         <li>
                             <Link to="rqsuperheroes">RQ Superheroes</Link>
+                        </li>
+                        <li>
+                            <Link to="dynamicparallel">Dynamic Parallel</Link>
                         </li>
                     </ul>
                 </nav>
