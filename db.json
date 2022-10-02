@@ -19,6 +19,11 @@
       "name": "Ryan Reynolds",
       "alterEgo": "Deadpool",
       "id": 4
+    },
+    {
+      "name": "Shazam",
+      "alterEgo": "Billy Batson",
+      "id": 5
     }
   ],
   "friends": [
